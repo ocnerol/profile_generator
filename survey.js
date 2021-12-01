@@ -7,17 +7,11 @@ const rl = readline.createInterface({
 });
 
 /*
-set up variables for name
-activity
-music
-favMeal
-favFood
-favSport
-superpower
+set up object for user information
 
 ask questions to prompt getting answers for all of those variables, and assign each variable to the respective user input
 
-set up a setTimeOut with a 0 second delay that will stdout a paragraph for the user's online profile using
+once all questions have their answers, create a user description which represents the generated user bio, then log the bio to the console
 */
 
 const userProfile = {
